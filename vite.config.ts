@@ -26,3 +26,11 @@ export default defineConfig(({mode}) => {
     },
   };
 });
+export default defineConfig(({mode}) => {
+  // ...
+  return {
+    base: '/chat-app/', // <-- Add this line
+    plugins: [react(), tailwindcss()],
+    // ...
+  };
+});
