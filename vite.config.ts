@@ -9,6 +9,7 @@ export default defineConfig(({mode}) => {
   const apiKey = env.GEMINI_API_KEY || process.env.GEMINI_API_KEY || '';
   
   return {
+    base: '/chat-app/',
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(apiKey.trim()),
