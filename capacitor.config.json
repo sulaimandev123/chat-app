@@ -1,0 +1,6 @@
+{
+  "appId": "com.aichat.app",
+  "appName": "AI Chat App",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
